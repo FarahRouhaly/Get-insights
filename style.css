@@ -1,0 +1,82 @@
+body{
+    background-color:hwb(245 3% 93%);
+    color: #fff;
+    font-family: sans-serif;
+
+   
+}
+
+.parent{
+   background-color: hsl(244, 38%, 16%);
+   width: 80%;
+   height: 400px;
+   margin: 100px auto;
+  position: relative;
+   
+}
+
+.parent img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    filter: grayscale(40%) brightness(70%) sepia(70%) hue-rotate(-100deg) saturate(500%) ;
+   
+
+
+}
+
+.parent .child-1{
+    padding: 50px;
+    width: 30%;
+}
+
+
+.parent .child-1 h2{
+    font-size: 1.8rem;
+}
+
+.parent .child-1 h2 .color{
+    color: purple;
+}
+
+.parent .child-1 p{
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+
+.child-2{
+    
+ display: flex;
+ justify-content: space-between ;
+ padding-top: 60px ;
+  
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.child span:first-child{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.child span:last-child{
+    font-size: 0.7rem;
+    color: hsl(224, 23%, 55%);
+    text-transform: uppercase;
+}
+  
+   
+    
+   
+
+
+
+
+
+
